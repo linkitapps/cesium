@@ -283,7 +283,7 @@ define([
       (level == 17 && (x >= 107520 && x <= 114688) && (y >= 47104 && y <= 54016)) ||
       (level == 18 && (x >= 215040 && x <= 229376) && (y >= 94208 && y <= 108032))
     ) {
-      url = '//xdworld.vworld.kr:8080/2d/Hybrid/201512/' + level + '/' + x + '/' + y + '.png';
+      url = 'http://xdworld.vworld.kr:8080/2d/Hybrid/201512/' + level + '/' + x + '/' + y + '.png';
     }
     // vworld customizing 끝
 
